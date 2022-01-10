@@ -1,0 +1,41 @@
+.container{
+    width: 700px;
+    margin-right: auto;
+    margin-left:auto;
+}
+img{
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    margin: 0 20px 15px 0;
+
+}
+.right{
+    float: right;
+    margin: 0 0 15px 20px;
+}
+.clearfix:before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.blue{
+    color: blue;
+}
+.purple{
+    color: purple;
+}
+.red{
+    color: red;
+}
+.black{
+    color: green;
+
+}
+.yellow{
+    color: yellow
+}
+.green{
+    color: yellowgreen;
+}
