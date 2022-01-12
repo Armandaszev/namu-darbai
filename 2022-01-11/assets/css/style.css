@@ -1,0 +1,24 @@
+.customlist{
+    display: list-item;
+    list-style-type: unset;
+}
+nav{
+    background: rgb(111, 208, 233); ;
+}
+nav li{
+    display: inline-block;
+    border-right: 1px solid salmon;
+}
+nav li a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: sandybrown;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav li a:hover{
+    color: white;
+    background: green;
+}
